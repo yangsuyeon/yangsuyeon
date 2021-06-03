@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @yangsuyeon
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-yangsuyeon/yangsuyeon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+def sayhello(name,age) :
+    if age < 10:
+      print("안녕." + name + " 군"
+    elif age <= 20 and age >=10:
+      print("안녕하세요." + name + " 씨")
+    else:
+      print("안녕하십니까?"+name + " 님"
+sayhello("수연" , 6)
+sayhello("가연" , 10)
+sayhello("다연" , 20)
+sayhello("아연" , 30)
