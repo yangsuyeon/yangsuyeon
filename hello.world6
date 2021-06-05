@@ -1,0 +1,13 @@
+a = 3
+b = 2 
+c = 5
+d = c – a
+
+if a > b :
+    print(“Hello 0_0”)
+if a > c:
+    print(“What?“)
+elif a == d:
+    print(“Bye~!“)
+else:
+    print(“Hi!“)
